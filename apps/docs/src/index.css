@@ -1,0 +1,15 @@
+/* apps/docs/src/index.css */
+
+/* 1. 引入 Tailwind v4 */
+@import "tailwindcss";
+
+/* 2. 🔥 核心：告诉 Storybook 去扫描 packages/core 里的源码 */
+/* 注意层级：../ (src) -> ../ (docs) -> ../ (apps) -> ../ (root) -> packages/core */
+@source "../../../packages/core/src";
+
+/* 3. 基础重置 */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

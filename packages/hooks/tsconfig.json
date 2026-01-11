@@ -1,0 +1,6 @@
+// packages/hooks/tsconfig.json
+{
+  "extends": "../../tsconfig.base.json",
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}   
